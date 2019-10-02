@@ -26,7 +26,7 @@ int main()
  for(int i=0;i<r;i++)
      cin>>gen[i];
  r--;
- for(int i=0;i<r;i++)
+ for(int i=0;i<=r;i++)
      message[n+i] = 1;
  for(int i=0;i<n+r;i++)
      temp[i] = message[i];
