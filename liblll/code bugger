@@ -55,7 +55,7 @@ int main()
          return 0;
      } }
  cout<<"No error in received Message.\nReceived Message : ";
- for(int i=0;i<n;i++)
+ for(int i=1;i<=n;i++)
      cout<<message[i]<<" ";
  return 0;
 }
